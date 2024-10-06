@@ -65,4 +65,4 @@ def main(secret_word: str) -> None:
 
 
 if __name__ == "__main__":  # used so can run program as a module
-    main("codes")
+    main("building")
