@@ -24,6 +24,6 @@ def f_sum(vals: list[float]) -> float:
 
 def f_range_sum(vals: list[float]) -> float:
     sum: float = 0.0
-    for num in range(0, len(vals)):
-        sum += num
+    for idx in range(0, (len(vals))):
+        sum += vals[idx]
     return sum
